@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('base.css');
+@import url('header-design.css');
+@import url('blog-about-footer.css');
+
+:root{
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+}
+*{
+    padding: 0;
+    
+    font-family: var(--Quicksand);
+}
+body{
+    line-height: 1.4;
+    color: var(--dark);
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0  1.2rem ;
+}
+blockquote {
+    font-family: var(--Playfair);
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--exDark);
+    border-left: 5px solid var(--exDark);
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #7657627c;
+}
